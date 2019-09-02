@@ -1,82 +1,43 @@
-/* Space out content a bit */
 body {
-  padding-top: 1.5rem;
-  padding-bottom: 1.5rem;
+    margin: 60px auto;
+    width: 70%;
+}
+nav ul, footer ul {
+    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    padding: 0px;
+    list-style: none;
+    font-weight: bold;
+}
+nav ul li, footer ul li {
+    display: inline;
+    margin-right: 20px;
+}
+a {
+    text-decoration: none;
+    color: #999;
+}
+a:hover {
+    text-decoration: underline;
+}
+h1 {
+    font-size: 3em;
+    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+}
+p {
+    font-size: 1.5em;
+    line-height: 1.4em;
+    color: #333;
+}
+footer {
+    border-top: 1px solid #d5d5d5;
+    font-size: .8em;
 }
 
-/* Everything but the jumbotron gets side spacing for mobile first views */
-.header,
-.marketing,
-.footer {
-  padding-right: 1rem;
-  padding-left: 1rem;
+ul.posts { 
+    margin: 20px auto 40px; 
+    font-size: 1.5em;
 }
 
-/* Custom page header */
-.header {
-  padding-bottom: 1rem;
-  border-bottom: .05rem solid #e5e5e5;
-}
-
-/* Make the masthead heading the same height as the navigation */
-.header h3 {
-  margin-top: 0;
-  margin-bottom: 0;
-  line-height: 3rem;
-}
-
-/* Custom page footer */
-.footer {
-  padding-top: 1.5rem;
-  color: #777;
-  border-top: .05rem solid #e5e5e5;
-}
-
-/* Customize container */
-@media (min-width: 48em) {
-  .container {
-    max-width: 70rem;
-  }
-}
-.container-narrow > hr {
-  margin: 2rem 0;
-}
-
-/* Main marketing message and sign up button */
-.jumbotron {
-  text-align: center;
-  border-bottom: .05rem solid #e5e5e5;
-}
-.jumbotron .btn {
-  padding: .75rem 1.5rem;
-  font-size: 1.5rem;
-}
-
-/* Supporting marketing content */
-.marketing {
-  margin: 1rem 0 0;
-}
-.marketing p + h4 {
-  margin-top: 1.5rem;
-}
-
-/* Responsive: Portrait tablets and up */
-@media screen and (min-width: 48em) {
-  /* Remove the padding we set earlier */
-  .header,
-  .marketing,
-  .footer {
-    padding-right: 0;
-    padding-left: 0;
-  }
-
-  /* Space out the masthead */
-  .header {
-    margin-bottom: 2rem;
-  }
-
-  /* Remove the bottom border on the jumbotron for visual effect */
-  .jumbotron {
-    border-bottom: 0;
-  }
+ul.posts li {
+    list-style: none;
 }
