@@ -12,23 +12,21 @@ nav ul, footer ul {
     padding: 0px;
     list-style: none;
     font-weight: bold;
+    color: slateblue;
+    font-size: 19px; font-style: normal; font-variant: normal; line-height: 20.9px;
 }
 nav ul li, footer ul li {
     font-family: Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
     display: inline;
     margin-right: 20px;
+    color: slateblue;
+    font-size: 19px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 20.9px;
 }
 
 a {
     font-family: Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
     text-decoration: none;
-    color: blue;
-}
-
-a:hover {
-    font-family: Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
-    text-decoration: underline;
-   color: hotpink;
+    color: teal;
 }
 
 a:hover {
