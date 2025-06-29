@@ -51,3 +51,39 @@ footer {
 ul li {
     font-family: Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif; font-size: 14px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 20px; } 
 }
+
+/* Icon button styles for footer links */
+.icon-links {
+  margin-top: 10px;
+  text-align: center;
+}
+
+.icon-button {
+  display: inline-block;
+  margin: 0 8px;
+  padding: 12px;
+  border-radius: 50%;
+  background-color: #f2f2f2;
+  color: #333;
+  text-decoration: none;
+  transition: background-color 0.2s ease, transform 0.1s ease;
+  font-size: 1.4em;
+}
+
+.icon-button:hover {
+  background-color: #e0e0e0;
+  transform: scale(1.1);
+}
+
+.icon-button.twitter {
+  color: #1DA1F2;
+}
+
+.icon-button.scholar {
+  color: #4285F4;
+}
+
+.icon-button.email {
+  color: #D44638;
+}
+
