@@ -127,16 +127,16 @@ ul li {
 }
 
 .media-logo {
-  width: 180px;
-  height: 56px;
+  width: 150px;
+  height: 44px;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
 .media-logo img {
-  max-height: 48px;
-  max-width: 170px;
+  max-height: 36px;
+  max-width: 140px;
   width: auto;
   display: block;
 }
