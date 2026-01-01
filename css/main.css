@@ -251,3 +251,33 @@ ul li {
 .policy-item:last-child {
   border-bottom: none;
 }
+
+.research-page {
+  display: grid;
+  gap: 20px;
+}
+
+.research-section h2 {
+  margin-bottom: 8px;
+}
+
+.research-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: grid;
+  gap: 12px;
+}
+
+.research-list--dense {
+  gap: 10px;
+}
+
+.research-list li {
+  padding: 10px 0;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.research-list li:last-child {
+  border-bottom: none;
+}
