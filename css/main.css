@@ -58,6 +58,18 @@ ul li {
   max-width: 960px;
 }
 
+.intro ul {
+  list-style: disc;
+  padding-left: 18px;
+  margin: 6px 0 0;
+}
+
+.intro ul li {
+  font-size: 15px;
+  line-height: 1.55;
+  margin: 3px 0;
+}
+
 /* Icon button styles for footer links */
 .icon-links {
   margin-top: 10px;
